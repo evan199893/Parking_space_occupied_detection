@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}RT Parking Information{% endblock %}
+
+{% block page_content %}
+<meta http-equiv="refresh" content="10" >   
+    <table class="table table-bordered"> 
+    <tr>
+        <th>Location</th>
+        <th>Time</th>
+        <th>Available</th>
+        <th>Occupied</th>
+        <th>Total</th>
+    </tr>
+        {% for i in u %}
+            <tr>
+                <td>{{ i[1] }}</td>
+                <td>{{ i[2] }}</td>
+                <td>{{ i[3] }}</td>
+                <td>{{ i[4] }}</td>
+                <td>{{ i[5] }}</td>            
+
+            </tr>
+    {% endfor %}
+    </table>
+    <center><p>Low light may let results incorrect</p></center>
+    <center><p>Auto Reload every 10 secs</p></center>
+        
+
+{% endblock %}
