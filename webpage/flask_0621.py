@@ -13,7 +13,7 @@ def index():
         "host": "127.0.0.1",
         "port": 3306,
         "user": "root",
-        "password": "ttv021015",
+        "password": "********",
         "db": "parking_lot",
         "charset": "utf8"
     }
