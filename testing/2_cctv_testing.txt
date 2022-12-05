@@ -1,0 +1,7 @@
+2_cctv_0.png 2
+2_cctv_1.png 2
+2_cctv_2.png 2
+2_cctv_3.png 2
+2_cctv_4.png 2
+2_cctv_5.png 2
+2_cctv_6.png 2
